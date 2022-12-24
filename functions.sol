@@ -19,15 +19,13 @@ This section explains how to write your own functions in Solidity.
 
 NOTE: Function take inputs of information and produce outputs.
 
-NOTE: The Scope is the visibiility.
-
-NOTE: If I say 'public' for a function, It's basically just saying that the function can be accessed "outside of the contract", 
+NOTE: If I say 'public' for a function, It's basically just saying that the function can be accessed "outside of the contract" as well as inside, 
 So other contracts can access it.   
 
 NOTE: If we want to make it private, it can only be accessed "in the contract".
 
 And If we want to return something, we have to set 'returns()'
-returns() is the output.    
+returns() specifies the output.    
 
 */
 contract learnFunctions {
@@ -48,7 +46,7 @@ contract learnFunctions {
 
     /* 
         NOTE: "view" keyword is just going to allow us to view the results of the return in our IDE, That's all you need to know for now.
-        Alright, If we don't have that, we can't see the results.
+        Alright, If we don't have that, we can't see the results (in REMIX IDE).
     */
 
     /* 
