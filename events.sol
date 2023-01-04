@@ -5,7 +5,7 @@ pragma solidity >= 0.7.0 < 0.9.0;
 /* 
     ** What exactly are events in Solidity? **
     Events are a way to log actions that occur in a smart contract.
-    If you index events they are easier and faster to find in the transaction log.  Up to 3 parameters can be indexed.
+    If you index events they are easier and faster to find and filter in the transaction log.  Up to 3 parameters can be indexed.
 */
 
 contract Events {
