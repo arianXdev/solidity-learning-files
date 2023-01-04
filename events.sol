@@ -9,9 +9,10 @@ pragma solidity >= 0.7.0 < 0.9.0;
 */
 
 contract Events {
-    // 1. Delcare the event 2. We want to emit the event
+    // 1. Delcare the event 
+    // 2. We want to emit the event (it's like calling the event)
     
-    // It's better to name events with PascalCase naming convention!
+    // NOTE: It's much better to name events with PascalCase naming convention!
     // You can only use 3 indexed in an event | it costs higher
     event NewTrade(
         uint indexed _date,
