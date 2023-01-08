@@ -15,8 +15,8 @@ contract Events {
 
     function trade(address payable _to, uint256 _amount) external payable {
         // Emitting the event
-        // In outside, consumers can see the event through web3.js
-        // How do people actually see this event? We would do that with the library Web3.js
+        // In outside, consumers can see the event through web3.js or ethers.js
+        // How do people actually see this event? We would do that with the library web3.js or ethers.js
         emit NewTrade(block.timestamp, msg.sender, _to, _amount);
     }
 }
