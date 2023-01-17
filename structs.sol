@@ -1,14 +1,15 @@
 pragma solidity >= 0.7.0 < 0.9.0;
 
 // Struct (Structure)
-// Struct are types that are used to represent a record. Suppose you want to keep track of your movies in a library.
+// Struct are custom types that are used to represent a record. Suppose you want to keep track of your movies in a library.
+// or for example you want to keep track of all your DEX orders.
 // You might want to track the following attributes about each movie.
 
 // Syntax: struct <structName> {element1, element2, ...}
 
 // Structs are custom data types that can group several variables. 
 // Structs in Solidity are a collection of variables (that can be of different types) under a single name.
-// This enable you to group many variables of multiple types into one user defined type.
+// This enables you to group many variables of multiple types into one user defined type.
 
 contract Structs {
     // Structs in Solidity are a collection of variable (that can have different types) under a single name.
